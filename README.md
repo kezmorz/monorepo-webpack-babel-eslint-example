@@ -1,11 +1,42 @@
 # Monorepo Example
 
 - :package: yarn workspaces - handles the monorepo workflow, including dependency management and bootstrapping
-- :book: lerna - runs scripts and manages versioning and publishing of packages
+- :dragon: lerna - runs scripts and manages versioning and publishing of packages
 - :leftwards_arrow_with_hook: babel - converts ECMAScript 2015+ into a backwards compatible version of JavaScript
 - :ok_hand: eslint - ensures code quality
 - :nail_care: prettier - maintains consistent code formatting styles
 - :dog: husky & lint-staged - utilise the pre-commit hook to fail fast and early
+
+
+## Getting Started
+
+This repository has been set up as a template repository so any new project can use this as a starting point by following the official GitHub documentation for [Creating a repository from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+
+
+
+
+## Structure
+
+Repository structure explained:
+
+```
+packages/
+  example-package/
+    src/
+      index.js
+    package.json              // package specific configuration with dependencies and scripts
+    webpack.config.js         // package specific webpack configuration
+.eslint.json                  // eslint configuration
+.gitignore                    // default GitHub gitignore file
+.prettier.json                // prettier configuration
+babel.config.js               // babel configuration
+lerna.json                    // lerna configuration
+LICENSE                       // root MIT license file used by GitHub
+package.json                  // root package configuration with common workspace-wide devDependencies and scripts
+README.md                     // standard root information
+webpack.shared.js             // shared webpack configuration, forms basis for individual package configurations
+yarn.lock                     // standard lockfile containing package install information
+```
 
 
 ## Managing Dependencies
@@ -36,6 +67,7 @@ This can be done by updating `package.json` in the relevant package workspace as
     "@org-name/example-package-test": "<package-version>"
   }
 ```
+
 
 ## Outstanding Tasks
 
