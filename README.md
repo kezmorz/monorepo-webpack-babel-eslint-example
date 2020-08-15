@@ -1,2 +1,10 @@
-# monorepo-webpack-babel-eslint-example
-A modern example of a monorepo utilising yarn workspaces, lerna, webpack, babel, eslint and prettier.
+# Monorepo Example
+
+
+
+
+## Outstanding Tasks
+
+* Add build scripts to main package.json file and also to individual package.json files
+* Add publish scripts to main package.json file and also to individual package.json files
+* Update .gitignore file to include all individual package files and directories
