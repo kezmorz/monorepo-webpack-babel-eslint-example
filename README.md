@@ -61,7 +61,7 @@ The following dependency structure is used in this project:
 This can be done using the following yarn command:
 
 ```sh
-yarn add <package-name> --dev -W
+$ yarn add <package-name> --dev -W
 ```
 
 ### Adding a sibling package
@@ -79,6 +79,6 @@ This can be done by updating `package.json` in the relevant package workspace as
 
 ## Outstanding Tasks
 
-- Add build scripts to main package.json file and also to individual package.json files
-- Add publish scripts to main package.json file and also to individual package.json files
-- Update .gitignore file to include all individual package files and directories
+- [ ] Add build scripts to main package.json file and also to individual package.json files
+- [ ] Add publish scripts to main package.json file and also to individual package.json files
+- [ ] Update .gitignore file to include all individual package files and directories
