@@ -12,7 +12,15 @@
 
 This repository has been set up as a template repository so any new project can use this as a starting point by following the official GitHub documentation for [Creating a repository from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
+### Standard command line
 
+Having created a new repository from this template, the standard commands can be used
+
+```bash
+$ git clone https://github.com/<username>/<repository-name>
+$ cd <repository-name>
+$ yarn install
+```
 
 
 ## Structure
